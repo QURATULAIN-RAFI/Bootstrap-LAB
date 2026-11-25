@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naksh_E_Khayal | My Creative World</title>
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="logoo.png" alt="Website Logo" class="nav-logo">
+            <a href="#home" class="logo">Naksh_E_<span>Khayal</span></a>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#home" class="active"><i class="bi bi-house-door"></i> Home</a>
+            <a href="#artworks"><i class="bi bi-brush"></i> My Artworks</a>
+            <a href="#gallery"><i class="bi bi-images"></i> Gallery</a>
+            <a href="#about"><i class="bi bi-person"></i> About Me</a>
+            <a href="#contact"><i class="bi bi-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-badge"><i class="bi bi-stars"></i> A World of Creativity</span>
+
+            <h1>Welcome to My<br>
+                <span>Creative World</span>
+            </h1>
+
+            <p>
+                Every artwork tells a story. Explore my collection of
+                paintings, sketches, and creative expressions made with
+                imagination, passion, and love.
+            </p>
+
+            <a href="#artworks" class="btn">Explore My Artworks <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+
+        <div class="hero-decoration">ART & CREATIVITY</div>
+    </section>
+
+
+    <main class="main-layout">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-box">
+                <h3>Explore Categories</h3>
+
+                <ul class="category-list">
+                    <li><a href="#artworks"><i class="bi bi-pencil"></i> Sketching</a></li>
+                    <li><a href="#artworks"><i class="bi bi-palette"></i> Painting</a></li>
+                    <li><a href="#artworks"><i class="bi bi-laptop"></i> Digital Art</a></li>
+                    <li><a href="#artworks"><i class="bi bi-circle-half"></i> Abstract Art</a></li>
+                    <li><a href="#artworks"><i class="bi bi-pen"></i> Calligraphy</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-box artist-box">
+                <div class="artist-icon"><i class="bi bi-flower1"></i></div>
+                <h3>A Little About Me</h3>
+                <p>
+                    I am an art enthusiast who loves turning ideas,
+                    feelings, and everyday moments into beautiful artwork.
+                </p>
+                <a href="#about" class="text-link">More About Me <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>Quick Links</h3>
+                <ul class="category-list">
+                    <li><a href="#gallery"><i class="bi bi-images"></i> My Gallery</a></li>
+                    <li><a href="#highlights"><i class="bi bi-stars"></i> Creative Highlights</a></li>
+                    <li><a href="#contact"><i class="bi bi-chat-dots"></i> Get in Touch</a></li>
+                </ul>
+            </div>
+
+        </aside>
+
+
+        <div class="content">
+
+            <section id="artworks" class="section">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">MADE WITH PASSION</p>
+                        <h2>My Artworks</h2>
+                    </div>
+                    <p class="section-note">A collection of my creativity.</p>
+                </div>
+
+                <div class="art-grid">
+
+                    <!-- Artwork 1 -->
+                    <article class="art-card">
+                        <div class="art-image">
+                            <img src="calligraphy.jpeg" alt="Calligraphy">
+
+                            <span class="new-badge">New</span>
+
+                            <input type="checkbox" id="fav1" class="favorite-checkbox">
+                            <label for="fav1" class="favorite-btn" title="Add to favourites">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                            </label>
+                        </div>
+
+                        <div class="art-info">
+                            <span class="art-category">PAINTING</span>
+                            <h3>Calligraphy</h3>
+                            <p>
+                                "There is no god but Allah and Muhammad(SA) is the Messenger of Allah."
+                            </p>
+                            <div class="art-details">
+                                <span><i class="bi bi-palette"></i> Medium: Acrylic</span>
+                                <span><i class="bi bi-calendar3"></i> 2025</span>
+                            </div>
+                            <a href="#contact" class="card-btn">View Details <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </article>
+
+
+                    <!-- Artwork 2 -->
+                    <article class="art-card">
+                        <div class="art-image">
+                            <img src="mountains.jpeg" alt="Mountains">
+
+                            <input type="checkbox" id="fav2" class="favorite-checkbox">
+                            <label for="fav2" class="favorite-btn" title="Add to favourites">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                            </label>
+                        </div>
+
+                        <div class="art-info">
+                            <span class="art-category">PAINTING</span>
+                            <h3>Mountains</h3>
+                            <p>
+                                "To the Mountains and never back.""
+                            </p>
+                            <div class="art-details">
+                                <span><i class="bi bi-palette"></i> Medium: Acrylic</span>
+                                <span><i class="bi bi-calendar3"></i> 2026</span>
+                            </div>
+                            <a href="#contact" class="card-btn">View Details <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </article>
+
+
+                    <!-- Artwork 3 -->
+                    <article class="art-card">
+                        <div class="art-image">
+                            <img src="sketch.jpeg" alt="Sketch">
+
+                            <input type="checkbox" id="fav3" class="favorite-checkbox">
+                            <label for="fav3" class="favorite-btn" title="Add to favourites">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                            </label>
+                        </div>
+
+                        <div class="art-info">
+                            <span class="art-category">SKETCHING</span>
+                            <h3>Charcoal Art</h3>
+                            <p>
+                                "Behind the shadowed gaze lived storms no one ever learned to name."
+                            </p>
+                            <div class="art-details">
+                                <span><i class="bi bi-pencil"></i> Medium: Charcoal</span>
+                                <span><i class="bi bi-calendar3"></i> 2026</span>
+                            </div>
+                            <a href="#contact" class="card-btn">View Details <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </article>
+
+
+                    <!-- Artwork 4 -->
+                    <article class="art-card">
+                        <div class="art-image">
+                            <img src="car.jpeg" alt="Car">
+
+                            <input type="checkbox" id="fav4" class="favorite-checkbox">
+                            <label for="fav4" class="favorite-btn" title="Add to favourites">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill"></i>
+                            </label>
+                        </div>
+
+                        <div class="art-info">
+                            <span class="art-category">PAINTING</span>
+                            <h3>Old Car</h3>
+                            <p>
+                                "Rolling through time in the shades of blue and gold."
+                            </p>
+                            <div class="art-details">
+                                <span><i class="bi bi-palette"></i> Medium: Acrylic</span>
+                                <span><i class="bi bi-calendar3"></i> 2026</span>
+                            </div>
+                            <a href="#contact" class="card-btn">View Details <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+
+            <section id="gallery" class="section gallery-section">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">A VISUAL JOURNEY</p>
+                        <h2>Explore My Gallery</h2>
+                    </div>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <a href="#artworks" class="gallery-item">
+                        <img src="duck.jpeg" alt="Colorful art">
+                        <span>Gooose with great taste in</span>
+                    </a>
+
+                    <a href="#artworks" class="gallery-item">
+                        <img src="flower.jpeg" alt="Colorful Art">
+                        <span>Learn the rules like a pro, so you can break them like an artist.</span>
+                    </a>
+
+                    <a href="#artworks" class="gallery-item">
+                        <img src="footballer.jpeg" alt="Sports">
+                        <span>Brazil's brightest Star.</span>
+                    </a>
+
+                    <a href="#artworks" class="gallery-item">
+                        <img src="pond.jpeg" alt="Pond">
+                        <span>Peace of the pond with the magic of my brush.</span>
+                    </a>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+    <section id="about" class="about-section">
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=80"
+                alt="An artistic workspace filled with painting supplies">
+        </div>
+
+        <div class="about-content">
+            <p class="eyebrow">THE PERSON BEHIND THE ART</p>
+            <h2>Art Is My Way of<br><span>Expressing Myself</span></h2>
+
+            <p>
+                Welcome to my creative space! Art allows me to express
+                emotions, capture beautiful moments, and share my
+                imagination with the world.
+            </p>
+
+            <p>
+                From pencil sketches to colorful paintings, I enjoy
+                experimenting with different techniques and discovering
+                new ways to turn ideas into visual stories.
+            </p>
+
+            <a href="#contact" class="btn">Let's Connect <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+    </section>
+
+
+    <section id="highlights" class="highlights-section">
+        <p class="eyebrow">MY CREATIVE JOURNEY</p>
+        <h2>Every Piece Has a Story</h2>
+
+        <div class="highlight-grid">
+
+            <div class="highlight-card">
+                <span><i class="bi bi-stars"></i></span>
+                <h3>Original Ideas</h3>
+                <p>Every creation begins with imagination and inspiration.</p>
+            </div>
+
+            <div class="highlight-card">
+                <span><i class="bi bi-heart"></i></span>
+                <h3>Made with Passion</h3>
+                <p>Time, patience, and creativity go into every piece.</p>
+            </div>
+
+            <div class="highlight-card">
+                <span><i class="bi bi-flower1"></i></span>
+                <h3>Always Exploring</h3>
+                <p>Learning new techniques and discovering fresh styles.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="contact-intro">
+            <p class="eyebrow">LET'S TALK ABOUT ART</p>
+            <h2>Have a Question<br>or an Idea?</h2>
+
+            <p>
+                I would love to hear from you. Send a message or connect
+                with me through social media.
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/naksh_e_khayal24?obrf=MTZlaHU2a3Q3dmxhZQ=="
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i> Instagram <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+                <a href="https://web.facebook.com/profile.php?id=61595982157746"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i> Facebook <i class="bi bi-arrow-up-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#contact" method="get">
+
+            <label for="name"><i class="bi bi-person"></i> Your Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email"><i class="bi bi-envelope"></i> Your Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="message"><i class="bi bi-chat-left-text"></i> Your Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Write your message here..."
+                      required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message <i class="bi bi-send"></i>
+            </button>
+
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-grid">
+
+            <div class="footer-column">
+                <a href="#home" class="logo footer-logo">
+                    Naksh_E_<span>Khayal.</span>
+                </a>
+
+                <p>
+                    A little corner of the internet dedicated to art,
+                    imagination, and creative expression.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="#home"><i class="bi bi-house-door"></i> Home</a>
+                <a href="#artworks"><i class="bi bi-brush"></i> My Artworks</a>
+                <a href="#gallery"><i class="bi bi-images"></i> Gallery</a>
+                <a href="#about"><i class="bi bi-person"></i> About Me</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Let's Connect</h3>
+
+                <a href="#contact"><i class="bi bi-envelope"></i> Contact Me</a>
+
+                <a href="https://www.instagram.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+
+                <a href="https://www.facebook.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 Naksh_E_Khayal. All rights reserved.</p>
+            <a href="#home">Back to Top <i class="bi bi-arrow-up"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
